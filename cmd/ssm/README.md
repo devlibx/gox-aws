@@ -5,6 +5,10 @@ set it in some IDE like IntelliJ. To get this you can use this utility whihc can
 key/value.
 
 You can use this utility to pull SSM parameters. We dump these in 2 format:
+```shell
+git clone https://github.com/devlibx/gox-aws.git
+cd gox-aws
+```
 
 1. Dump which can be used as export
 
