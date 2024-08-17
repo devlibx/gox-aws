@@ -1,7 +1,7 @@
 package gox_aws
 
 import (
-	"github.com/devlibx/gox-base/serialization"
+	"github.com/devlibx/gox-base/v2/serialization"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

@@ -4,7 +4,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ssm"
-	"github.com/devlibx/gox-base/errors"
+	"github.com/devlibx/gox-base/v2/errors"
 	"strings"
 	"time"
 )

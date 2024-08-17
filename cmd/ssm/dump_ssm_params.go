@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/devlibx/gox-aws/cmd/ssm/impl"
+	"github.com/devlibx/gox-aws/v2/cmd/ssm/impl"
 )
 
 func main() {

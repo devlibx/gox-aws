@@ -7,7 +7,7 @@ package mock_gox_aws_avro
 import (
 	reflect "reflect"
 
-	gox "github.com/devlibx/gox-base"
+	gox "github.com/devlibx/gox-base/v2"
 	gomock "github.com/golang/mock/gomock"
 )
 

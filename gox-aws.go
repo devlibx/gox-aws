@@ -4,9 +4,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/devlibx/gox-base"
-	errors2 "github.com/devlibx/gox-base/errors"
-	"github.com/devlibx/gox-base/util"
+	"github.com/devlibx/gox-base/v2"
+	errors2 "github.com/devlibx/gox-base/v2/errors"
+	"github.com/devlibx/gox-base/v2/util"
 )
 
 type awsSessionContext struct {

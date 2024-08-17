@@ -1,8 +1,8 @@
 package avro
 
 import (
-	"github.com/devlibx/gox-base"
-	errors2 "github.com/devlibx/gox-base/errors"
+	"github.com/devlibx/gox-base/v2"
+	errors2 "github.com/devlibx/gox-base/v2/errors"
 	"github.com/fatih/structs"
 	"github.com/linkedin/goavro/v2"
 	_ "github.com/linkedin/goavro/v2"

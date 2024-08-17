@@ -2,7 +2,7 @@ package avro
 
 import (
 	"flag"
-	mockAwsAvro "github.com/devlibx/gox-aws/schema/avro/mocks"
+	mockAwsAvro "github.com/devlibx/gox-aws/v2/schema/avro/mocks"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 	"testing"
