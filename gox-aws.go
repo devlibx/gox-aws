@@ -27,9 +27,8 @@ func NewAwsContext(cf gox.CrossFunction, config Config) (ctx AwsContext, err err
 	// Set default region
 	if util.IsStringEmpty(config.Region) {
 		config.Region = "ap-south-1"
-	} else {
-		region = aws.String(config.Region)
 	}
+	region = aws.String(config.Region)
 
 	// use end point if configured
 	if len(config.Endpoint) > 0 {
